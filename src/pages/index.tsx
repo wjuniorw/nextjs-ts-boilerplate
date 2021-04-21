@@ -5,8 +5,6 @@ type Props = {
   title: string
 }
 
-const a = 'qwerty'
-
 function Home({ title }: Props) {
   return (
     <div className={styles.container}>
