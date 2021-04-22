@@ -1,8 +1,15 @@
+import * as S from './styles'
+
 function Main() {
   return (
-    <main>
-      <h1>Nextjs S2...</h1>
-    </main>
+    <S.Wrapper>
+      <S.Logo src='/favicon.png' alt='imagem Notebook com engrenagens' />
+      <S.Title>Boilerplate Nextjs</S.Title>
+      <S.Description>
+        Boilerplate Nextjs com Typescript e Styled Components
+      </S.Description>
+      <S.Ilustration src='/favicon.png' />
+    </S.Wrapper>
   )
 }
 
