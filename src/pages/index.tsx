@@ -1,10 +1,6 @@
 import Main from 'components/Main'
 
-type Props = {
-  title: string
-}
-
-function Home({ title }: Props) {
+function Home() {
   return <Main />
 }
 
